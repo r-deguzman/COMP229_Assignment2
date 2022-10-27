@@ -1,0 +1,45 @@
+/*
+Student's Name: Ruth Jocelyn De Guzman
+Student ID: 301224922
+Date: October 16, 2022
+*/
+body {
+  background-color: aliceblue;
+}
+#aboutme {
+  margin: 1em 10em 1em 10em;
+  position: absolute;
+  text-indent: 5em;
+  text-align: justify;
+}
+
+#aboutmeintro {
+  margin-top: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.page {
+  text-align: center;
+  padding: 4em 4em;
+}
+.page .text-justify {
+  text-align: justify;
+  line-height: 2;
+}
+.navbar-brand img {
+  width: 6vw;
+  position: relative;
+}
+.bg-blue {
+  background-color: #7da1c1;
+}
+.bg-blue2 {
+  background-color: #416893;
+}
+
+/* img {
+    width: 15%;
+    position: absolute;
+  } */

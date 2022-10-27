@@ -1,0 +1,32 @@
+<%- include('partials/header.ejs') %> <%- include('partials/main_nav.ejs') %>
+
+<div class="page container-fluid">
+  <div class="row justify-content-center h-100">
+    <div class="col p-4">
+      <h1 class="text-center">Welcome to our <%= title %> page</h1>
+    </div>
+  </div>
+  <div class="row justify-content-center h-100">
+    <div class="d-flex align-items-center justify-content-center">
+      <p class="lead">
+        <b>Mission:</b> This lab aims to create your own personal portfolio
+        website using ExpressJS and implementing EJS templating engine. Explore
+        this website by clicking the following links:
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="d-flex justify-content-center p-4">
+        <div class="p-2 bd-highlight"><a href="/home">Home</a></div>
+        <div class="p-2 bd-highlight"><a href="/about">About</a></div>
+        <div class="p-2 bd-highlight"><a href="/projects">Projects</a></div>
+        <div class="p-2 bd-highlight"><a href="/services">Services</a></div>
+        <div class="p-2 bd-highlight">
+          <a href="/contact-list">Contact List</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('partials/bottom_nav.ejs') %> <%- include('partials/footer.ejs') %>
